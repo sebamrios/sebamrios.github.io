@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    width: 100%;
+    position: fixed;
+    height: 50px;
+}
+
+body {
+    background-color:  rgb(255, 255, 255); 
+    font-family: "Raleway";
+}
+
+.rectangulo-fondo{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.rectangulo {
+    width: 100%;
+    height: 100px;
+    background-color: #00BFFF; 
+    }
+
+.imagen {
+    width: 300px; /* Ancho de la imagen */
+    height: 300px; /* Alto de la imagen */
+    background-image: url('./images/logo-cc.png'); /* Ruta de la imagen */
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fredoka";
+    color: rgb(255, 255, 255);
+}
+
+/* somos  */
+
+.container-somos{
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Raleway";
+    margin: 10px;
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+    margin: 5px;
+}
+
+.titulo-somos{
+    justify-content: center;
+    
+}
+
+.cuerpo-somos{
+    justify-content: justify;
+    align-items: center;
+
+}
+
+/* somos  */
+
+.icono{
+    font-size: 3em;
+}
+.titulo{
+    text-align: center;
+}
+
+i {
+    margin-right: 1rem;
+}
+
+.ingreso{
+    margin-top: 1rem;
+}
+
+.fondoGris{
+    background-color: rgba(35, 124, 13, 0.2) pt-2 pb-2;
+    font-size:small;
+}
+
+a{
+    color: rgb(124, 124, 124);
+}
+
+  /* Agregar estilos para la sección de especialidades */
+        #especialidades {
+            background-color: #f2f2f2; /* Fondo gris claro */
+            padding: 10px 0; /* Espaciado interno */
+            border-radius: 10px;
+        }
+
+        #especialidades h2 {
+            font-family: 'Raleway', sans-serif; /* Estilo de fuente para el título */
+            color: #333; /* Color del texto */
+            font-weight: 500;
+        }
+
+        #especialidades h3 {
+            font-family: 'Raleway', sans-serif; /* Estilo de fuente para los títulos de especialidades */
+            color: #555; /* Color del texto de las especialidades */
+        }
+
+        #especialidades p {
+            font-family: 'Raleway', sans-serif; /* Estilo de fuente para el contenido */
+            color: #666; /* Color del texto del contenido */
+        }
+
+        .especialidad {
+            border: 1px solid #ddd; /* Borde alrededor de cada especialidad */
+            padding: 30px; /* Espaciado interno de cada especialidad */
+            margin-bottom: 20px; /* Margen inferior entre especialidades */
+            border-radius: 5px; /* Bordes redondeados */
+            background-color: #ddd;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #d8d8d8;
+            
+        }
+.profesional {
+            padding: 1px; /* Espaciado interno de cada especialidad */
+            margin-bottom: 20px; /* Margen inferior entre especialidades */
+            border-radius: 5px; /* Bordes redondeados */
+            
+        }
+
+
+.toggle-btn {
+            display: block;
+            margin: 0 auto; /* Centrar el botón */
+            border-radius: 10px; /* Bordes redondeados */
+            padding: 10px 20px; /* Espaciado interno del botón */
+            cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+            background-color: #007bff; /* Color de fondo del botón */
+            color: #fff; /* Color del texto del botón */
+            border: none; /* Sin borde */
+            margin-top: 10px; /* Espacio superior para separar los botones */
+        }
+
+        .toggle-btn:hover {
+            background-color: #0056b3; /* Cambiar el color de fondo al pasar sobre el botón */
+        }
+
+.boarda{
+    background-color: #01e4db;
+    color:#555;
+}
+
+.boardb{
+    background-color: #9fa0a0;
+    color:#555;
+}
+
+.boardc{
+    background-color: #0dcaf0;
+    color:#555;
+}
